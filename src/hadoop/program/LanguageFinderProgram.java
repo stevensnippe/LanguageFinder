@@ -10,9 +10,9 @@ import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 import hadoop.Constants;
-import hadoop.utils.FileUtils;
 import mapreduce.mapper.SentenceMapper;
 import mapreduce.reducer.SentenceReducer;
+import utilities.FileUtils;
 
 public class LanguageFinderProgram {
 

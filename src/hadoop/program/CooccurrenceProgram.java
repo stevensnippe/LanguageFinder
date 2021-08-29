@@ -12,9 +12,9 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 import hadoop.Constants;
 import hadoop.model.CharacterPair;
-import hadoop.utils.FileUtils;
 import mapreduce.mapper.CharacterCooccuranceMapper;
 import mapreduce.reducer.CharacterPairsReducer;
+import utilities.FileUtils;
 
 public class CooccurrenceProgram {
 	
